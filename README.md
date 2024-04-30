@@ -1,1 +1,1 @@
-# Student-Management-System-Using-Spring
+# Student-Result-Management-System-Using-Spring
