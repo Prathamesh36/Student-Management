@@ -11,7 +11,7 @@
 
 
 
-#### Admin Modules
+# Admin Modules
 
 ## Home Page:
 ![Screenshot 2024-07-26 001130](https://github.com/user-attachments/assets/c0c03254-348c-4c17-9be8-113fb6cdf79c)
@@ -29,7 +29,7 @@
 ![Screenshot 2024-07-26 001101](https://github.com/user-attachments/assets/c7eeb31b-9a9f-41a8-8d71-6cf5ecc4b5f1)
 
 
-#### Student Modules
+# Student Modules
 
 ## Student Login Page:
 ![Screenshot 2024-07-26 001152](https://github.com/user-attachments/assets/fc2f8091-f791-4de9-9a93-15e85df949c5)
