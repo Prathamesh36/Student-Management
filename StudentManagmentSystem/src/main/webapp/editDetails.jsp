@@ -6,6 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Student Result Management System</title>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/addDetails.css">
+<link rel="icon" type="image/x-icon" href="../images/logo.svg">
  <link
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 	rel="stylesheet">

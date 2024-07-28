@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/homepage.css">
+<link rel="icon" type="image/x-icon" href="../images/logo.svg">
 <title>Student Result Management System</title>
 </head>
 <body>

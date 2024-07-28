@@ -284,7 +284,7 @@ td{
 
 table, th, td {
 	border-collapse: collapse;
-	padding: 1rem 1rem;
+	padding: 0.7rem 1rem;
 	text-align: left;
     
 }
@@ -297,6 +297,9 @@ thead th {
 	cursor: pointer;
 	text-transform: capitalize;
     z-index: 9;
+}
+h6{
+	margin-bottom:0rem;
 }
 .btnn{
     height: 100%;

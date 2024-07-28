@@ -140,7 +140,7 @@ public class StudentHandler {
 		Student ob = repo.findById(id).get();
 		m.addAttribute("std1", ob);
 
-		return "editform";
+		return "editDetails";
 	}
 
 	@RequestMapping("/update/{id}")

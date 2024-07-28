@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/login.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.svg">
     <title>Student Result Management System</title>
 </head>
 
@@ -31,6 +32,11 @@
 						<div class="input-div">
 							<lable class="label" for="email">Email</lable>
 							<input type="text" id="email" name="email">
+									<div class="forgot-pass">
+								<div class=label1>
+									<lable for="name">[Sample Email: niraj@gmail.com]</lable><br>
+								</div>
+							</div>
 						</div>
 
 						<div class="label" class="input-div">
@@ -38,13 +44,8 @@
 							<input type="password" id="password" name="password">
 							<div class="forgot-pass">
 								<div class=label1>
-									<lable for="name">[password: Firstname$yearOfBirth]</lable><br>
+									<lable for="name">[Sample password: Niraj$2004]</lable><br>
 								</div>
-								<div class=label2>
-									<lable for="name">(ex. Vivek$1999)</lable>
-								</div>
-								
-								
 							</div>
 
 						</div>

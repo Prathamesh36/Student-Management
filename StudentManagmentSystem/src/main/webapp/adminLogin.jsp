@@ -7,6 +7,7 @@
 <title>Student Result Management System</title>
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/css/login.css">
+<link rel="icon" type="image/x-icon" href="../images/logo.svg">	
 </head>
 <body>
 	<div class="main-container">
@@ -28,13 +29,20 @@
 						<div class="input-div">
 							<lable class="label" for="email">Email</lable>
 							<input type="text" id="email" name="email">
+							<div class="forgot-pass">
+								<div class=label1>
+									<lable for="name">[Email: admin@gmail.com]</lable><br>
+								</div>
+							</div>
 						</div>
 
 						<div class="label" class="input-div">
 							<lable for="name">Password</lable>
 							<input type="password" id="password" name="password">
 							<div class="forgot-pass">
-								<lable for="name"></lable>
+								<div class=label1>
+									<lable for="name">[Password: admin@123]</lable>
+								</div>
 							</div>
 
 						</div>
@@ -64,14 +72,14 @@
 							if (email === '' && password === '') {
 								// If email and password don't match, show error message
 								document.getElementById('error').style.display = 'block';
-							} else if (email === 'admin@techprimelab.com'
+							} else if (email === 'admin@gmail.com'
 									&& password === 'admin@123') {
 								// If email and password match, submit the form
 								document.getElementById('error').style.display = 'none';
 								document.getElementById('password').style.borderColor = '';
 								document.getElementById('loginForm').submit(); // Submit the form
-							} else if (email !== 'admin@techprimelab.com'
-									&& password !== 'admin@123') {
+							} else if (email !== 'admin@gmail.com'
+									|| password !== 'admin@123') {
 								document.getElementById('email').style.borderColor = 'red';
 								document.getElementById('password').style.borderColor = 'red';
 								document.getElementById('error').style.display = 'block';
